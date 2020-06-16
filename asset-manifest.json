@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/static/js/main.7d51be3d.chunk.js",
+    "main.js.map": "/static/js/main.7d51be3d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cbdc9ba5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cbdc9ba5.js.map",
+    "static/css/2.e5e999d7.chunk.css": "/static/css/2.e5e999d7.chunk.css",
+    "static/js/2.b16ed4db.chunk.js": "/static/js/2.b16ed4db.chunk.js",
+    "static/js/2.b16ed4db.chunk.js.map": "/static/js/2.b16ed4db.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e277c589c063a1b9fc2233a376ccadf6.js": "/precache-manifest.e277c589c063a1b9fc2233a376ccadf6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e5e999d7.chunk.css.map": "/static/css/2.e5e999d7.chunk.css.map",
+    "static/js/2.b16ed4db.chunk.js.LICENSE.txt": "/static/js/2.b16ed4db.chunk.js.LICENSE.txt",
+    "static/media/background-landing.svg": "/static/media/background-landing.9dd55f85.svg",
+    "static/media/background-regular.svg": "/static/media/background-regular.487f9d53.svg",
+    "static/media/white.css": "/static/media/source-sans-pro-semibolditalic.c7e698a4.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cbdc9ba5.js",
+    "static/css/2.e5e999d7.chunk.css",
+    "static/js/2.b16ed4db.chunk.js",
+    "static/js/main.7d51be3d.chunk.js"
+  ]
+}
