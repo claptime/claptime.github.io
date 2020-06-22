@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.js": "/static/js/main.2048c8d1.chunk.js",
-    "main.js.map": "/static/js/main.2048c8d1.chunk.js.map",
+    "main.js": "/static/js/main.b2eb7ea0.chunk.js",
+    "main.js.map": "/static/js/main.b2eb7ea0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cbdc9ba5.js",
     "runtime-main.js.map": "/static/js/runtime-main.cbdc9ba5.js.map",
-    "static/css/2.e5e999d7.chunk.css": "/static/css/2.e5e999d7.chunk.css",
-    "static/js/2.b16ed4db.chunk.js": "/static/js/2.b16ed4db.chunk.js",
-    "static/js/2.b16ed4db.chunk.js.map": "/static/js/2.b16ed4db.chunk.js.map",
+    "static/css/2.45305d34.chunk.css": "/static/css/2.45305d34.chunk.css",
+    "static/js/2.90b5a875.chunk.js": "/static/js/2.90b5a875.chunk.js",
+    "static/js/2.90b5a875.chunk.js.map": "/static/js/2.90b5a875.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d262538ea83f5b1ef73645c7e80a760a.js": "/precache-manifest.d262538ea83f5b1ef73645c7e80a760a.js",
+    "precache-manifest.b3b00b489ea984fe6a95796f4bc8635d.js": "/precache-manifest.b3b00b489ea984fe6a95796f4bc8635d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.e5e999d7.chunk.css.map": "/static/css/2.e5e999d7.chunk.css.map",
-    "static/js/2.b16ed4db.chunk.js.LICENSE.txt": "/static/js/2.b16ed4db.chunk.js.LICENSE.txt",
+    "static/css/2.45305d34.chunk.css.map": "/static/css/2.45305d34.chunk.css.map",
+    "static/js/2.90b5a875.chunk.js.LICENSE.txt": "/static/js/2.90b5a875.chunk.js.LICENSE.txt",
+    "static/media/arrow.svg": "/static/media/arrow.2ecca64b.svg",
     "static/media/background-landing.svg": "/static/media/background-landing.9dd55f85.svg",
     "static/media/background-regular.svg": "/static/media/background-regular.487f9d53.svg",
-    "static/media/white.css": "/static/media/source-sans-pro-semibolditalic.c7e698a4.ttf"
+    "static/media/christophe.jpg": "/static/media/christophe.e76bab6f.jpg",
+    "static/media/matrix.png": "/static/media/matrix.e078dcfc.png",
+    "static/media/recipe.png": "/static/media/recipe.44bc5a2a.png",
+    "static/media/white.css": "/static/media/source-sans-pro-semibolditalic.c7e698a4.ttf",
+    "static/media/thibaut.jpg": "/static/media/thibaut.f8b64b1a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cbdc9ba5.js",
-    "static/css/2.e5e999d7.chunk.css",
-    "static/js/2.b16ed4db.chunk.js",
-    "static/js/main.2048c8d1.chunk.js"
+    "static/css/2.45305d34.chunk.css",
+    "static/js/2.90b5a875.chunk.js",
+    "static/js/main.b2eb7ea0.chunk.js"
   ]
 }

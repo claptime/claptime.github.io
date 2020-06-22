@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7cd90f7bb61b5c772741f40df1d14cb8",
+    "revision": "cb52655a59b3010dc87136dfe446e535",
     "url": "/index.html"
   },
   {
-    "revision": "56756cf2f0e775cdc13d",
-    "url": "/static/css/2.e5e999d7.chunk.css"
+    "revision": "fdac4ebea6ebda7751fd",
+    "url": "/static/css/2.45305d34.chunk.css"
   },
   {
-    "revision": "56756cf2f0e775cdc13d",
-    "url": "/static/js/2.b16ed4db.chunk.js"
+    "revision": "fdac4ebea6ebda7751fd",
+    "url": "/static/js/2.90b5a875.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.b16ed4db.chunk.js.LICENSE.txt"
+    "revision": "60cea085f906716cc49a413ef21570f4",
+    "url": "/static/js/2.90b5a875.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc332feb8fb2d4b160d1",
-    "url": "/static/js/main.2048c8d1.chunk.js"
+    "revision": "2ee2f90c9e382540a087",
+    "url": "/static/js/main.b2eb7ea0.chunk.js"
   },
   {
     "revision": "64514b0ea0ef364026d8",
     "url": "/static/js/runtime-main.cbdc9ba5.js"
+  },
+  {
+    "revision": "2ecca64b3ddb114de10999dd40e4fa24",
+    "url": "/static/media/arrow.2ecca64b.svg"
   },
   {
     "revision": "9dd55f851464e8a0f9664275814ceea4",
@@ -30,6 +34,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "487f9d53bae70db312d37f6e41eb919e",
     "url": "/static/media/background-regular.487f9d53.svg"
+  },
+  {
+    "revision": "e76bab6f0659fba275da7d22c26e6c93",
+    "url": "/static/media/christophe.e76bab6f.jpg"
+  },
+  {
+    "revision": "e078dcfc250bf020cd8c8b29e4ad9d07",
+    "url": "/static/media/matrix.e078dcfc.png"
+  },
+  {
+    "revision": "44bc5a2a392c65857a7a0adde866b3e7",
+    "url": "/static/media/recipe.44bc5a2a.png"
   },
   {
     "revision": "72217712eb8d28872e7069322f3fda23",
@@ -78,5 +94,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c7e698a4d0956f4a939f42a05685bbf5",
     "url": "/static/media/source-sans-pro-semibolditalic.c7e698a4.ttf"
+  },
+  {
+    "revision": "f8b64b1a789a2223c824e11c88192151",
+    "url": "/static/media/thibaut.f8b64b1a.jpg"
   }
 ]);
