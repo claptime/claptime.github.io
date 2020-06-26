@@ -80,6 +80,9 @@ const StyledContainer = styled.div`
       animation: octocat-wave 560ms ease-in-out;
     }
   }
+  height: 100vh;
+  /* https://css-tricks.com/the-trick-to-viewport-units-on-mobile/ */
+  height: calc(var(--vh, 1vh) * 100);
 `;
 
 const StyledAvatar = styled.div`
@@ -138,6 +141,7 @@ const List = styled.ul`
 const App = () => {
   const revealRef = useRef(null);
   const [showBonus, setShowBonus] = useState(false);
+  const setVH = () => document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
   useEffect(() => {
     Reveal.initialize({
       controlsBackArrows: 'visible',
@@ -150,11 +154,12 @@ const App = () => {
       revealRef.current.setAttribute('data-background', currentSlide.getAttribute('data-background'));
       setShowBonus(currentSlide.getAttribute('data-show-bonus') === 'true');
     });
+    window.addEventListener('resize', setVH);
+    setVH();
   }, []);
   return (
     <StyledContainer
       className="reveal"
-      style={{ height: '100vh' }}
       ref={revealRef}
       data-background="landing" // initial value, will be changed on 'slidechanged' event
     >
@@ -169,7 +174,6 @@ const App = () => {
                 fill: '#151513',
                 color: '#fff',
                 position: 'absolute',
-                top: 40,
                 border: 0,
                 left: 0,
                 transform: 'scale(-1, 1)',
@@ -214,11 +218,11 @@ const App = () => {
           </List>
         </Section>
         <Section>
-          <p style={{ fontSize: '1.5em' }}>Claptime est la plateforme vidéo dédiée au cinéma et aux réalisateurs indépendants, qui favorise et soutient la création.</p>
+          <p style={{ fontSize: '1.4em' }}>Claptime est la plateforme vidéo dédiée au cinéma et aux réalisateurs indépendants, qui favorise et soutient la création.</p>
         </Section>
         <Section>
           <h2>Notre mission</h2>
-          <p style={{ fontSize: '1.5em' }}>
+          <p style={{ fontSize: '1.4em' }}>
             Combattre l'uniformisation culturelle et valoriser la diversité cinématographique
           </p>
         </Section>
